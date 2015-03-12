@@ -152,3 +152,9 @@ hr {
 #shippingMethod {
 /* 	display: none; */
 }
+
+/* LAYOUT STYLES */
+.checkout-panel {
+	margin-top: 40px;
+}
+

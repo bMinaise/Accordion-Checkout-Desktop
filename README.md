@@ -1,3 +1,3 @@
 #Sephora
 --------
-##Accordion Mobile Checkout
+##Accordion Desktop Checkout

@@ -55,18 +55,23 @@
 		<div class="page-header">
 		  <h1 class="avalon-book">SECURE CHECKOUT<small>  <span class="glyphicon glyphicon-lock" aria-hidden="true"><span></small></h1>
 		</div>
-	  <div class="secure-checkout">
+	  
+	 <div class="row"> 
+	  
+	  <div class="col-md-8 secure-checkout">
 		  <!-- start checkout tabbed navigation -->
 		  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 			  <div class="panel panel-default">
 			    <div class="panel-heading" id="shippingAccordion" role="tab" id="headingOne">
 			      <h4 class="panel-title">
-			        <a class="avalon-bold">1.SHIPPING</a>
-			        <a class="pull-right" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Edit</a>
+			        <a class="avalon-bold" >
+			          1.SHIPPING
+			        </a><a class="pull-right" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Edit</a>
+
 			      </h4>
 			    </div>
 			    <!-- Output data stored in sessionStorage here -->
-				  <div id="formOneOutput"></div><!-- THIS SHOULD BE EMPTY BY DEFAULT -->
+				<div id="formOneOutput"></div><!-- THIS SHOULD BE EMPTY BY DEFAULT -->
 			    
 			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 				    
@@ -74,6 +79,23 @@
 							<!-- Shipping Form -->
 							<form id="shippingDetails">
 								<p class="checkout-title">SHIPPING DETAILS</p>
+								
+								
+								 <div class="form-group">
+							   
+							    <div class="row">
+								    <div class="col-xs-6 pull-left">
+							    <label for="firstNameCheckout">First Name</label>
+							    <input type="text" class="form-control" id="firstNameCheckout" placeholder="">
+								    </div>
+								    <div class="col-xs-6">
+							    <label for="lastNameCheckout">Last Name</label>
+							    <input type="text" class="form-control" id="lastNameCheckout" placeholder="">
+								    </div>
+							    </div>
+							  </div>
+								
+								
 							  <div class="form-group">
 							    <label for="firstNameCheckout">First Name</label>
 							    <input type="text" class="form-control" id="firstNameCheckout" placeholder="">
@@ -331,6 +353,21 @@
 			    </div>
 			  </div>
 			</div>
+			
+			</div>
+			
+			
+			<div class="col-md-4 pull-right">
+				<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+			</div>
+	  
 	  </div>
     </div><!-- /.container -->
 
